@@ -1,0 +1,70 @@
+{
+    "pages": [
+        "pages/myclass/myclass",
+        "pages/tool/tool",
+        "pages/my/my",
+        "pages/setup/setup",
+        "pages/personal/personal",
+        "pages/login/login",
+        "pages/logins/logins",
+        "pages/myOrder/myOrder",
+        "pages/studyCard/studyCard",
+        "pages/address/address",
+        "pages/Collection/Collection",
+        "pages/member/member",
+        "pages/myQuan/myQuan",
+        "pages/messageList/messageList",
+        "pages/question/question",
+        "pages/selcourse/selcourse",
+        "pages/cathouse/cathouse"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/selcourse/selcourse",
+                "text": "选课",
+                "iconPath": "./images/选课.png",
+                "selectedIconPath": "./images/选课1.png"
+            },
+            {
+                "pagePath": "pages/myclass/myclass",
+                "text": "我的课",
+                "iconPath": "/images/我的课.png",
+                "selectedIconPath": "./images/我的课1.png"
+            },
+            {
+                "pagePath": "pages/cathouse/cathouse",
+                "text": "喵屋",
+                "iconPath": "./images/喵屋.png",
+                "selectedIconPath": "./images/喵屋1.png"
+            },
+            {
+                "pagePath": "pages/tool/tool",
+                "text": "工具",
+                "iconPath": "./images/系统工具.png",
+                "selectedIconPath": "./images/系统工具 (1).png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "./images/我的.png",
+                "selectedIconPath": "./images/我的 (1).png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+        "van-button": "@vant/weapp/button/index",
+        "van-popup": "@vant/weapp/popup/index",
+        "van-tab": "@vant/weapp/tab/index",
+        "van-tabs": "@vant/weapp/tabs/index",
+        "van-empty": "@vant/weapp/empty/index"
+    }
+}

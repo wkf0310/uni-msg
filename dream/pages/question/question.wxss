@@ -1,0 +1,25 @@
+.inp{
+  border: 1px solid #ccc;
+}
+.minbox{
+  height: 300rpx;
+  /* padding:.38667rem .36rem; */
+  margin-bottom: 200rpx;
+}
+.box{
+  width: 100%;
+  font-size: 30rpx;
+  /* padding: 40rpx; */
+}
+.btns{
+  padding: 20rpx 300rpx;
+  border-radius: 10rpx !important;
+  background-color: orange;
+  color: white;
+  margin-left: 40rpx;
+}
+.yun{
+  width: 95%;
+  border: 1px solid #ccc;
+  margin-left: 15rpx;
+}
